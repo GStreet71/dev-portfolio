@@ -42,6 +42,15 @@
   .about-container {
     margin-top: 0;
   }
+  .about-pic {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about-pic {
+    width: 60vw;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -96,5 +105,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  .about-pic {
+    width: 46vw;
   }
 }
