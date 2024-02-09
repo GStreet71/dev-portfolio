@@ -60,6 +60,12 @@ a:hover {
   font-size: 2rem;
 }
 
+#gh-logo {
+  height: 3.5rem;
+  width: 12rem;
+  object-fit: contain;
+}
+
 .logo:hover {
   cursor: default;
 }
@@ -169,13 +175,13 @@ section {
 }
 
 .profile-pic {
-  border-radius: 12.5rem;
+  border-radius: 13rem;
 }
 
 .section-pic-container {
   height: 400px;
   width: 400px;
-  margin: auto 0; 
+  margin: auto 0;
 }
 
 .section-text {
@@ -212,7 +218,7 @@ section {
 
 .icon {
   cursor: pointer;
-  height: 2rem;
+  height: 3.5rem;
 }
 
 /* BUTTONS */
@@ -288,7 +294,6 @@ section {
   border-radius: 2rem;
   width: 25vw;
   object-fit: cover;
-  object-position: 0px -12px;
 }
 
 .arrow {
@@ -381,21 +386,22 @@ article .icon {
 }
 
 .project1 {
-  background-color: #D9D18F;
-  border: 6px solid #CB9B2B;
-  outline: 6px solid black;
-  padding: 5px;
+  /* background-color: #D9D18F;
+  border: 6px solid #CB9B2B; 
+  outline: 6px solid black;*/
+  padding: 20px;
+  padding-right: 0px;
 }
 
 .project2 {
   /* border: 6px solid #034C76; */
   /* border: 6px solid #9ECCE5; */
-  border: 6px solid #DAF2FC;
-  padding: 5px;
+  /* border: 6px solid #DAF2FC; */
+  /* padding: 5x; */
 }
 
 .project3 {
-  border: 6px solid #ED1C24;
+  /* border: 6px solid #ED1C24; */
   padding: 5px;;
 }
 
