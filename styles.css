@@ -154,10 +154,10 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  min-height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  /* min-height: fit-content; */
 }
 
 .section-container,
@@ -397,12 +397,12 @@ article .icon {
   /* border: 6px solid #034C76; */
   /* border: 6px solid #9ECCE5; */
   /* border: 6px solid #DAF2FC; */
-  /* padding: 5x; */
+  /* padding: 5px; */
 }
 
 .project3 {
   /* border: 6px solid #ED1C24; */
-  padding: 5px;;
+  padding: 5px;
 }
 
 .project-title {
