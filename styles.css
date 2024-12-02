@@ -164,6 +164,7 @@ section {
   min-height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
+  position: relative;
   /* min-height: fit-content; */
 }
 
@@ -424,8 +425,13 @@ article .icon {
 #contact {
   display: flex;
   justify-content: center;
-  flex-direction: column;
-  height: 70vh;  
+  align-items: center;
+  flex-direction: column;  padding: auto;
+  /* height: 70vh;   */
+}
+
+.contact-container {
+  margin-bottom: 30vh; 
 }
 
 .contact-info-upper-container {
@@ -463,7 +469,10 @@ article .icon {
 
 footer {
   height: 26vh;
-  margin: 0 1rem;  
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  align-self: center;
 }
 
 footer p {
